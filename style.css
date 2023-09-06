@@ -1,0 +1,80 @@
+body{
+  padding:0;
+  margin:0;
+  font-size:14px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.cardUtama{
+  position: relative;
+  width: 500px; 
+  height: 500px;
+  margin:30px auto;
+  box-shadow: 0 0 100px rgba(0,0,0, .3);
+}
+.card-header{
+  position: relative;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0,0,0,0);
+  border: none;
+  overflow: hidden;
+}
+.card-body{
+  text-align:center;
+  padding-left: 10px;
+}
+.note{
+  font-size: 14px;
+  color: #7B7B7B;
+  font-weight: 300;
+  margin: 10px auto;
+  line-height: 20px;
+}
+
+.mediaSosial img{
+  width: 15px;
+}
+
+.mediaSosial a{
+  margin-left: 10px;
+}
+.mediaSosial a:first-child{
+  margin-left: 0;
+}
+
+.card-footer{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 20px;
+}
+.status{
+  box-sizing: border-box;
+  width: calc(100% / 3);
+  float: left;
+  text-align: center;
+  border-left: 1px solid #EBEBEB;
+}
+.status .label{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #95989A;
+}
+
+.status .value{
+  display: block;
+  font-weight: 700;
+  font-size:20px;
+  margin-top: 5px;
+}

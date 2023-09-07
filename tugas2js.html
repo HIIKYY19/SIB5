@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Pegawai</title>
+</head>
+<body>
+    <script>
+        var namapegawai = "Ridwan";
+        var jabatan = "Manager";
+        var status = "Menikah";
+        switch (jabatan) {
+            case "Manager":
+                gajipokok = 15000000;
+                break;
+            case "AsistenManager":
+                gajipokok = 10000000;
+                break;
+            case "Staff":
+                gajipokok = 5000000;
+                break;
+            default:
+                gajipokok = 0;
+        }
+
+        var tunjanganjabatan = 0.15 * gajipokok;
+        var bpjs = 0.1 * gajipokok;
+      
+        if (status == "Menikah") tunjangankeluarga = 0.2 * gajipokok;
+        else tunjangankeluarga = 0;
+      
+        var totalgaji = gajipokok + tunjanganjabatan + bpjs + tunjangankeluarga;
+      
+        document.write("<h2>Data Pegawai dan Gaji</h2>");
+        document.write("==============================");
+        document.write(
+          "<br> Pegawai : " +
+            namapegawai +
+            "<br> Jabatan : " +
+            jabatan +
+            "<br> Status : " +
+            status +
+            "<br> Gaji Pokok : " +
+            gajipokok +
+            "<br> Tunjangan Jabatan : " +
+            tunjanganjabatan +
+            "<br> Tunjangan BPJS : " +
+            bpjs +
+            "<br> Tunjangan Keluarga : " +
+            tunjangankeluarga +
+            "<br> Total Gaji : " +
+            totalgaji
+        );
+        document.write("<br>==============================");
+      </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    margin: 100 px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    text-align: center;
+    margin: auto;
+    background-color: aqua;
+}
+#P, #MH, #K {
+    display: inline-block;
+    margin-top: auto;
+    width: 50%;
+    color: blue;
+    background-color: #5CD2E6;
+    border: 3px solid white;
+    padding: 10 px;
+    text-align: center;
+    height: 175px;
+    cursor: pointer;
+}

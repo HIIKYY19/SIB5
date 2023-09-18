@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas 6 JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+  $("#P").click(function () {
+    $(this).html(
+      "<h2>Profile</h2><p>Nama : Muhammad Rizky Fauzi Nurrohman</p> <p>NIM : 20210810165</p> <p>Asal Kampus : Universitas Kuningan"
+    );
+  });
+
+  $("#MH").click(function () {
+    $(this).html(
+      "<h2>Moto Hidup</h2><p>Moto : Hiduplah seperti besok Hari Terakhirmu</p> <p>Alasan : Agar kita selalu ingat akan kematian"
+    );
+  });
+
+  $("#K").click(function () {
+    $(this).html(
+      "<h2>Keahlian</h2><p>Keahlian : Mendesain dan Mengedit</p>Pengalaman :Mengikuti Pelatihan desain grafis <p>"
+    );
+  });
+});
+    </script>
+  </head>
+  <body>
+    <h1>Click Untuk Menampilkan Data</h1>
+
+    <div id="P">Profile</div>
+    <div id="MH">Moto Hidup</div>
+    <div id="K">Keahlian</div>
+  </body>
+</html>

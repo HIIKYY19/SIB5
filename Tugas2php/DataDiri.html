@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Data Diri</title>
+  </head>
+  <style>
+    h1 {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: #12486b;
+    }
+    label {
+      font-family: "Times New Roman", Times, serif;
+      color: #12486b;
+    }
+    select {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: #12486b;
+    }
+    button {
+      color: #12486b;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <h1>Form Data Diri</h1>
+    <form method="POST" action="DataDiri.php">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" /><br /><br />
+
+      <label for="pekerjaan">Pekerjaan:</label>
+      <select id="pekerjaan" name="pekerjaan">
+        <option value="Polisi">Polisi</option>
+        <option value="Tentara">Tentara</option>
+        <option value="Guru">Guru</option>
+        <option value="Dokter">Dokter</option>
+        <option value="perawat">Perawat</option>
+        <option value="Dosen">Dosen</option>
+        <option value="Pengusaha">Pengusaha</option>
+        <option value="Konten Kreator">Konten Kreator</option>
+        <option value="Hakim">Hakim</option>
+        <option value="Pengacara">Pengacara</option>
+        <option value="Jaksa">Jaksa</option></select
+      ><br /><br />
+
+      <label>Hobby:</label><br />
+      <input type="radio" id="hobby1" name="hobby" value="Jogging" />
+      <label>Jogging</label><br />
+      <input type="radio" id="hobby2" name="hobby" value="Bersepeda" />
+      <label>Bersepeda</label><br />
+      <input type="radio" id="hobby3" name="hobby" value="Volly" />
+      <label>Volly</label><br />
+      <input type="radio" id="hobby4" name="hobby" value="Tennis" />
+      <label>Tennis</label><br />
+      <input type="radio" id="hobby5" name="hobby" value="Bermain Bola" />
+      <label>Bermain Bola</label><br />
+      <input type="radio" id="hobby6" name="hobby" value="Game" />
+      <label>Game</label><br />
+      <input type="radio" id="hobby7" name="hobby" value="Olahraga" />
+      <label>Olahraga</label><br />
+      <input type="radio" id="hobby8" name="hobby" value="Hiking" />
+      <label>Hiking</label><br />
+      <input type="radio" id="hobby9" name="hobby" value="Membaca" />
+      <label>Membaca</label><br />
+      <input type="radio" id="hobby10" name="hobby" value="Menyanyi" />
+      <label>Menyanyi</label><br />
+      <br /><br />
+      <button type="submit" name="simpan" value="Simpan">SIMPAN</button>
+    </form>
+  </body>
+</html>
